@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Properties Example</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .margin-example {
+            margin: 30px; /*30px гэж бичихэд гаднах зайн хэмжээг өөрчлөгдөж байна.*/
+            background-color: #28a745;
+
+        }
+        .padding-example {
+            padding: 10px; /*20px гэж бичихэд дотоод зайн хэмжээг өөрчлөгдөж байна.*/
+            background-color: #ffc107;
+
+        }
+        .align-example {
+            text-align: right; /* center гэж бичихэд төвд байна.*/ 
+            background-color: #17a2b8; 
+            width: 200px ;
+
+        }
+        .border-example {
+            border: 10px solid black; /*Элементийн хүрээг 5px гэж бичихэд хүрээ илүү өргөн болж байна.*/
+            background-color: #ffffff;
+
+        }
+        .outline-example {
+            outline-offset: 8px; /*тодруулах хүрээ өөрчлөгдөнө*/
+            outline: 10px solid rgb(108, 108, 108); /*элементийн гадна хүрээг өргөнөөрөө өөрчлөгдөж байна.*/
+            background-color: #ff0000;
+            width: 130px;
+        }
+        .opacity-example {
+            opacity: 0.85; /*0.85 гэж бичихэд элементийн тунгалаг байдал 1 гэж бичсэнээс илүү бүдэг болж байна.*/ 
+            background-color: #f8f9fa;
+            color: #212529;
+
+        }
+        .important-example{
+            color:rgb(0, 0, 255) !important; /*Энэ өнгийг ямар ч өөрчлөлт хийсэн үл тоож хадгална.*/
+        background-color: #343a40;
+
+        }
+        </style>
+        </head>
+        <body>
+            <div class="box margin-example">Margin Example</div>
+            <div class="box padding-example">Padding Example</div>
+            <div class="box align-example">Align Text Example</div>
+            <div class="box border-example">Border Example</div>
+            <div class="box outline-example">Outline Example</div> 
+            <div class="box opacity-example">Opacity Example</div>
+            <div class="box important-example">Important Example</div>
+         </div>
+        </body>
+        </html>
+         
